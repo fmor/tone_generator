@@ -16,8 +16,8 @@ float duration;
 void print_help()
 {
     printf( "tone_generator [-f frequency] [-d duration]\n");
-    printf( "frequency : in Hz, must be > 0\n");
-    printf( "duration  : in seconds must be > 0\n ");
+    printf( "frequency : in Hz0\n");
+    printf( "duration  : in seconds\n ");
 }
 
 void sin_generator(  void* data, Uint8* stream, int bytes_count )

@@ -6,10 +6,10 @@
 
     make && ./tone_generator -f 90 -d 5
 
-    frequency : in Hz, must be > 0
-    duration  : in seconds must be > 0
+    frequency : in Hz
+    duration  : in seconds
  
 # Requirements
 
-* [SDL2](https://www.libsdl.org/https://www.libsdl.org)
+* [SDL2](https://www.libsdl.org)
 
